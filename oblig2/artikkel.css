@@ -4,7 +4,7 @@ body{
     margin: 0 auto;
     display: grid;
     grid-gap: 15px;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 2fr 1fr 1fr;
     grid-template-areas: 
         "header header header"
         "nav nav nav"
@@ -71,28 +71,9 @@ aside {
     background-color: rgb(152, 162, 184);
 }
 
-aside section ul {
-    list-style: none;
-    padding-left:0;
-}
-
-aside section ul li a {
+#asideNav {
     text-decoration: none;
     color: #312C6F;
-}
-
-#knapp {
-    margin-top: 20px;
-}
-
-#knapp a {
-    background-color: #050A34;
-    text-decoration: none;
-    border: solid black 1px;
-    width: 20%;
-    text-align: center;
-    color: white;
-    padding: 5%;
 }
 
 /* Footer */
