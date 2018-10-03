@@ -1,0 +1,76 @@
+/* Body */
+body{
+    max-width: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-gap: 15px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 
+        "header header header"
+        "nav nav nav"
+        "main main aside"
+        "footer footer footer";
+    background-image: linear-gradient( #050A34, #312C6F, #050A34)
+}
+
+/* Header */
+header {
+    grid-area: header;
+    margin-top: 2%;
+    background-image: url(foto/space.jpg);
+    background-size: 1500px;
+    color: white;
+    padding: 5px 5px 5px 10px;
+    text-align: center;
+}
+
+/* Nav */
+nav {
+    grid-area: nav;
+    background-color: rgb(152, 162, 184);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+nav a {
+    text-decoration: none; 
+    padding: 2%;
+    color: black;
+}
+
+/* Main */
+main {
+    grid-area: main;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+    padding: 2%;
+    margin: 2%;
+    background-color: rgb(152, 162, 184);
+    overflow: auto;
+}
+
+main section img {
+    float: right;
+    padding: 5px;
+}
+
+/* Aside */
+aside {
+    grid-area: aside;
+    display: flex;
+    flex-direction: column;
+    margin: 10%;
+    padding: 3%;
+    background-color: rgb(152, 162, 184);
+}
+
+/* Footer */
+footer {
+    grid-area: footer;
+    margin-bottom: 2%;
+    background-color: rgb(152, 162, 184);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
