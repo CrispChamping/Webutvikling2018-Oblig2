@@ -50,15 +50,14 @@ main {
     overflow: auto;
 }
 
-main section figure {
+main figure {
     float: right;
     padding: 5px;
 }
 
-#iframeP {
-    padding-top: 0;
-    margin-top: 0;
-    font-style: italic;
+.figureLiten img {
+    width: 30%;
+    float: left;
 }
 
 /* Aside */

@@ -1,0 +1,13 @@
+header, nav, aside, footer {
+    display: none;
+}
+
+body {
+    display: inline;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+main {
+    text-align: left;
+}

@@ -4,6 +4,7 @@
     <meta charset="utf-8" />
     <title> CSS layouts </title>
     <link rel="stylesheet" type="text/css"  href="artikkel.css" />
+    <link rel="stylesheet" type="text/css" media="print" href="artikkelprint.css">
 </head>
 <body>
     <header>
@@ -18,19 +19,22 @@
     </nav>
 
     <main>
-        <h2> Float </h2>
+        <h2> CSS layouts </h2>
+        <h3> Float </h3>
         <p>
-        Float er den litt eldre metoden for å stil sette en nettside på. Ved å være gamle kommer også mange ulemper, som å være kronglete, forvirrende, irriterende og rett og slet håpløs å bruke. Float går ut på at skal velge hvor elementet ditt skal legge seg på siden, til høyre eller venstre. Hvis alle elementer er f.eks. floata til høyre, vil de legge seg etter hverandre til høyre. Sammen med float har vi clear, med clear kan man velge om det skal være forbudt for elementer å floate på venstre, høyre eller begge sider av gjeldene element. 
+            Float er den litt eldre metoden for å stil sette en nettside på. Ved å være gamle kommer også mange ulemper, som å være kronglete, forvirrende, irriterende og rett og slet håpløs å bruke. Float går ut på at skal velge hvor elementet ditt skal legge seg på siden, til høyre eller venstre. Hvis alle elementer er f.eks. floata til høyre, vil de legge seg etter hverandre til høyre. Sammen med float har vi clear, med clear kan man velge om det skal være forbudt for elementer å floate på venstre, høyre eller begge sider av gjeldene element. 
         </p>
-        <h2> Flexbox </h2>
+        <figure class="figureLiten"> <img src="foto/float.jpg" alt="Eksempel på float"> </figure>
+        <h3> Flexbox </h3>
         <p>
-        Etter float kom flexbox, dette er en desidert bedre metode å stile et layout, den bruker rows og columns sånn at du kan mer presist velge hvor et element skal plasseres på siden og hvordan de skal fungere sammen. Flexbox er et bra verktøy spesielt hvis du f.eks. har mange artikler i hovedinnholdet på siden, da kan man lett forklare til siden hvordan man ønsker at de skal fungere sammen og hvordan de skal plassere seg sammen når siden krymper eller øker ved hjelp av wrap.
+            Etter float kom flexbox, dette er en desidert bedre metode å stile et layout, den bruker rows og columns sånn at du kan mer presist velge hvor et element skal plasseres på siden og hvordan de skal fungere sammen. Flexbox er et bra verktøy spesielt hvis du f.eks. har mange artikler i hovedinnholdet på siden, da kan man lett forklare til siden hvordan man ønsker at de skal fungere sammen og hvordan de skal plassere seg sammen når siden krymper eller øker ved hjelp av wrap.
         </p>
-        <h2> Grid </h2> 
+        <figure class="figureLiten"> <img src="foto/flex.jpg" alt="Eksempel på flexbox"> </figure>
+        <h3> Grid </h3> 
         <p>
-        Grid er det nyeste verktøyet for CSS layouts, den bruker igjen rows og colomns, men på en mye bedre måte. Når man setter opp siden deler man det inn i seksjoner med ulike navn, som kan ligne veldig på et ruteark i excel.  
+            Grid er det nyeste verktøyet for CSS layouts, den bruker igjen rows og colomns, men på en mye bedre måte. Når man setter opp siden deler man det inn i seksjoner med ulike navn, som kan ligne veldig på et ruteark i excel.  
         </p>
-        
+        <figure class="figureLiten"> <img src="foto/grid.jpg" alt="Eksempel på grid"> </figure>
     </main>
 
     <aside>

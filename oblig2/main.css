@@ -51,14 +51,13 @@ main {
 }
 
 main section figure {
-    float: right;
+    float: left;
     padding: 5px;
 }
 
-#iframeP {
-    padding-top: 0;
-    margin-top: 0;
-    font-style: italic;
+#figurerigth {
+    float: right;
+    padding: 5px;
 }
 
 /* Aside */
@@ -69,6 +68,12 @@ aside {
     margin: 10%;
     padding: 3%;
     background-color: rgb(152, 162, 184);
+}
+
+#iframeP {
+    padding-top: 0;
+    margin-top: 0;
+    font-style: italic;
 }
 
 aside section ul {
